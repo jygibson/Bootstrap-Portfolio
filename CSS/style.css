@@ -14,7 +14,7 @@ body {
     background-size: 100% auto;
     padding: 0;
     margin: 0;
-    z-index:0;
+    z-index:-1;
   }
 
 /* .wrapper{
@@ -44,6 +44,10 @@ body {
       color: #bca0bc;
       z-index: 1;
   }
+
+  .col-sm {
+    margin: 0 auto;
+}
 
   #content {
     position: absolute;
@@ -119,6 +123,10 @@ p {
     font-style: italic;
 }
 
+#email, #linkedin {
+    border: 0;
+}
+
 img {
     border-top: 8px;
     border-top-style: solid;
@@ -137,6 +145,8 @@ img {
     border-color: #bca0bc;
     color: #696969;
 }
+
+
 /* 
 body {
     background-image: url(../images/palm-leaf.png);

@@ -3,67 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+  <link rel="stylesheet" type="text/css" href="http://www.jsdelivr.com/#!particles.js">
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
   <title>jyg.</title>
 </head>
 
 <body>
+  <!-- particles.js container --> <div id="particles-js">
 
-  <div class="index-container">
-    <div id="name">Jennifer Gibson</div>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
+  </div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles"></span></div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+ <div id ="content">
+    <h3>{ jennifer young gibson }</h3>
   </div>
+  <div id ="links">
+      <ul>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
   </div>
-  <hr>
-  <div class="container">
-    <div class="row">
-      <h2>About Me</h2>
-    </div>
-    <hr>
-
-    <div class="row">
-      <div class="col-12">
-        <div class="col-8">
-          <img src="images/me2.png" style="width: 33%; height: 33%"></div>
-        <p>Welcome to my coding portfolio! I'm glad you're here. This personal site began as one of my first homework
-          assignments at the UCF Coding Bootcamp, and has evolved to now house all of my homeworks and projects to
-          date. I'm proud of what I've created so far, had plenty of fun with it, and hope you enjoy them as well.</p>
-        <p>A little background about me: I am from Northern Virginia, outside of Washington, DC and moved to Florida in
-          October 2017.
-          I hold a Bachelor of Arts in Sociology from Christopher Newport University in Newport News, Virginia, and
-          have my Senior Professional in Human Resources certification.
-          For the past 9 years, I've worked in Human Resources for a law firm in Alexandria, Virginia, where I have
-          been supported by a great team and learned a lot.</p>
-        <p>I've always wanted to learn to code even from my early days playing around with Geocities sites, but always
-          thought maybe it wasn't for me. However, I got the itch to do something new professionally, and decided to
-          take the plunge and
-          enrolled with the UCF Coding Boot Camp. I've learned so much already including HTML, CSS, Bootstrap, media
-          queries, Javascript, jQuery, API calls, and Firebase. I'm looking forward to developing my skills and
-          continuing to learn as the
-          program continues!</p>
-        <p>I am a leader with excellent teamwork and communication skills, and I'm quick to learn new things and adapt
-          to changes. I enjoy new challenges and
-          believe that putting my newfound coding skills to work, along with my variety of work experiences will allow
-          to me to be an asset to your organization.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <nav class="navbar fixed-bottom navbar-light bg-secondary justify-content-center" style="background-color: #666666">
-        <span class="navbar-text" style="color: white;">Copyright©</span>
-      </nav>
-    </div>
-    <!-- <script src="javascript/button.js"></script> -->
+    <script src="app.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
 </body>

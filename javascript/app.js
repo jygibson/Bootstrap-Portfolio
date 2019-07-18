@@ -1,67 +1,54 @@
-{
+
+
+  particlesJS("particles-js", {
     "particles": {
       "number": {
-        "value": 300,
+        "value": 800,
         "density": {
           "enable": true,
-          "value_area": 320.34597365154366
+          "value_area": 200
         }
       },
       "color": {
-        "value": "#c8c4c5"
+        "value": ["#fac7da", "#c8c4c5"]
       },
       "shape": {
         "type": "star",
-        "stroke": {
-          "width": 0,
-          "color": "#000000"
-        },
-        "polygon": {
-          "nb_sides": 5
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
-        }
       },
       "opacity": {
-        "value": 0.5,
-        "random": false,
+        "value": 0.8,
+        "random": true,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 1,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 3,
+        "value": 5,
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": true,
+          "speed": .40,
           "size_min": 0.1,
-          "sync": false
+          "sync": true
         }
       },
       "line_linked": {
         "enable": false,
-        "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0.4,
-        "width": 1
       },
+      
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 1,
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "bounce": false,
         "attract": {
-          "enable": true,
+          "enable": false,
           "rotateX": 600,
           "rotateY": 1200
         }
@@ -71,7 +58,7 @@
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "repulse"
         },
         "onclick": {
@@ -107,4 +94,4 @@
       }
     },
     "retina_detect": true
-  }
+  });

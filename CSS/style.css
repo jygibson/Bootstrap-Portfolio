@@ -148,67 +148,32 @@ img {
     color: #696969;
 }
 
-@media only screen and (max-width:360px)and (orientation: portrait) {
-
-    #particles-js {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        height: 100%;
-        background-position: 100%;
-    }
-
-    #content {
-        position: absolute;
-        top: 40px;
-        left: 50px;
-        display: block;
-    }
-
-    h3 {
-        font-size: 55px;
-    }
-
-    #links {
-        position: absolute;
-        top: 250px;
-        left: 100px;    
-    }
-    
-    #index-links {
-        font-family: 'Quicksand', sans-serif;
-        display: block;
-        font-size: 24px;
-    }
-}
-
-@media only screen and (max-width:768px)and (orientation: portrait) {
+@media only screen and (min-width:1920px){
 
     #particles-js {
         position: relative;
         border-radius: 100px / 200px;
-        top: 200px;
-        left: 120px;
-        width: 70%;
-        height: 70%;
+        top: 300px;
+        left: 500px;
+        width: 50%;
+        height: 50%;
     }
 
     #content {
         position: absolute;
-        top: 250px;
-        left: 150px;
+        top: 500px;
+        left: 820px;
         display: block;
     }
 
     h3 {
-        font-size: 38px;
+        font-size: 100;
     }
 
     #links {
         position: absolute;
-        top: 330px;
-        left: 200px;    
+        top: 550px;
+        left: 800px;    
     }
     
     #index-links {
@@ -251,32 +216,32 @@ img {
     }
 }
 
-@media only screen and (min-width:1920px){
+@media only screen and (max-width:768px) {
 
     #particles-js {
         position: relative;
         border-radius: 100px / 200px;
-        top: 300px;
-        left: 500px;
-        width: 50%;
+        top: 200px;
+        left: 120px;
+        width: 70%;
         height: 50%;
     }
 
     #content {
         position: absolute;
-        top: 500px;
-        left: 820px;
+        top: 250px;
+        left: 150px;
         display: block;
     }
 
     h3 {
-        font-size: 100;
+        font-size: 38px;
     }
 
     #links {
         position: absolute;
-        top: 550px;
-        left: 800px;    
+        top: 330px;
+        left: 200px;    
     }
     
     #index-links {
@@ -284,3 +249,41 @@ img {
         font-size: 24px;
     }
 }
+
+@media only screen and (max-width : 480px) and (orientation: portrait) {
+
+    #particles-js {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-position: 100% 100%;
+        z-index: -1;
+    }
+
+    #content {
+        margin: 60px;
+        left: 40px;
+        top: 30px;
+        position: relative;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
+    #links {
+        position: absolute;
+        top: 400px;
+        left: 160px;    
+    }
+    
+    #index-links {
+        font-family: 'Quicksand', sans-serif;
+        display: block;
+        font-size: 30px;
+    }
+}
+
+
